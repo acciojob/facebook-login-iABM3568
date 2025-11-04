@@ -1,1 +1,120 @@
 /*  your css code here. If applicable */
+ /* Body styling */
+        body {
+            background-color: #f6f6f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        
+        /* Container for both sections */
+        .container {
+            display: flex;
+            gap: 100px;
+            align-items: center;
+        }
+        
+        /* Left section styling */
+        .left {
+            width: 450px;
+            margin-top: 70px;
+            display: inline-block;
+        }
+        
+        .left img {
+            width: 300px;
+            margin-bottom: 20px;
+        }
+        
+        .left p {
+            font-size: 28px;
+            line-height: 32px;
+            color: #1c1e21;
+        }
+        
+        /* Right section styling */
+        .right {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        /* Form styling */
+        form {
+            display: flex;
+            width: 300px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #ccc;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        /* Input styling */
+        input {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        
+        input:focus {
+            outline: none;
+            border-color: #1877f2;
+        }
+        
+        /* Button styling */
+        button[type="submit"] {
+            background-color: #1877f2;
+            border-radius: 5px;
+            padding: 10px 20px;
+            width: 100%;
+            border: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #166fe5;
+        }
+        
+        /* Link styling */
+        a {
+            text-decoration: none;
+            color: #1877f2;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Divider line */
+        .divider {
+            border-top: 1px solid #dadde1;
+            margin: 10px 0;
+        }
+        
+        /* Signup button styling */
+        .signup {
+            background-color: #42b72a;
+            border-radius: 5px;
+            padding: 10px 20px;
+            width: 100%;
+            border: none;
+            color: white;
+            font-size: 17px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .signup:hover {
+            background-color: #36a420;
+        }
